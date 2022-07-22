@@ -1,0 +1,166 @@
+.first {
+    height: 100vh;
+    min-height: 821px;
+    background-image: url("./../../img/first-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1770px;
+}
+
+.first__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 240px;
+}
+
+.first__title {
+    font-family: 'josefin-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.first__descr {
+    font-family: 'josefin-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+    color: #FFFFFF;
+    padding-bottom: 48px;
+}
+
+.search-form {
+    position: relative;
+    width: 656px;
+    height: 63px;
+    background: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.search-form__field {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    font-family: 'josefin-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: #999999;
+}
+
+.search-form__button {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+    width: 153px;
+    height: 59px;
+    background-color: #5474FD;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'aleo-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.search-form__button::after {
+    content: url('./../../img/search-icon.svg');
+    position: absolute;
+    height: 24px;
+    width: 22px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.first-section__menu {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.first__ScrollDownBtn {
+    display: block;
+    position: relative;
+    font-family: 'josefin-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: #FFFFFF;
+    margin-right: 50px;
+}
+
+.first__ScrollDownBtn::after {
+    display: block;
+    content: url("./../../img/arrow-icon.png");
+}
+
+.menu__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    background: #5474FD;
+    height: 83px;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.menu__link {
+    font-family: 'josefin-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 319px;
+}
+
+.menu__item {
+    font-family: 'aleo-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.menu__item:last-child {
+    padding-right: 270px;
+}
