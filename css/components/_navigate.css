@@ -1,0 +1,80 @@
+.navigate {
+    height: 340px;
+    background: #333333;
+}
+
+.navigate__container {
+    padding-top: 100px;
+    padding-left: 330px;
+    padding-right: 330px;
+    padding-bottom: 0px;
+}
+
+.navigate__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'aleo-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E8E8E8;
+}
+
+.navigate__link--1 {
+    background-image: url('./../../img/zoom-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width: 59px;
+    position: relative;
+}
+
+.navigate__link--1::after {
+    position: absolute;
+    content: "Search Places";
+    top: 90px;
+    left: -110px;
+    width: 300px;
+}
+
+.navigate__link--2 {
+    background-image: url('./../../img/done-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 63px;
+    width: 62px;
+    position: relative;
+}
+
+.navigate__link--2::after {
+    position: absolute;
+    content: "Select Places";
+    top: 92px;
+    left: -110px;
+    width: 300px;
+}
+
+.navigate__link--3 {
+    background-image: url('./../../img/like-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 61px;
+    width: 64px;
+    position: relative;
+}
+
+.navigate__link--3::after {
+    position: absolute;
+    content: "Book & Enjoy";
+    top: 91px;
+    left: -110px;
+    width: 300px;
+}
