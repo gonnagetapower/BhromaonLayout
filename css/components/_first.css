@@ -154,7 +154,3 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
-.menu__item:last-child {
-    padding-right: 30%;
-}
