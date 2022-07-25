@@ -5,4 +5,5 @@
 
 /* components */
 
-@import "./components/_first.css"
+@import "./components/_first.css";
+@import "./components/_choose.css";

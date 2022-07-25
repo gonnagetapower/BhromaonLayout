@@ -5,10 +5,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.container {
-    width: 1770px;
+    position: relative;
 }
 
 .first__container {
@@ -28,7 +25,7 @@
     letter-spacing: 4.8px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .first__descr {
@@ -93,13 +90,6 @@
     margin-left: 10px;
 }
 
-.first-section__menu {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
 .first__ScrollDownBtn {
     display: block;
     position: relative;
@@ -118,13 +108,18 @@
     content: url("./../../img/arrow-icon.png");
 }
 
+.first-section__menu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #5474FD;
+}
+
 .menu__container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
-    background: #5474FD;
     height: 83px;
 }
 
@@ -146,7 +141,6 @@
     letter-spacing: 2.4px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-left: 319px;
 }
 
 .menu__item {
@@ -162,5 +156,5 @@
 }
 
 .menu__item:last-child {
-    padding-right: 270px;
+    padding-right: 30%;
 }
