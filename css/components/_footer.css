@@ -1,0 +1,87 @@
+.footer {
+    background: #232323;
+    color: white;
+}
+
+.footer__container {
+    text-align: center;
+}
+
+.footer__name {
+    font-family: 'josefin-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.footer__descr {
+    font-family: 'josefin-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__item:not(:last-child) {
+    margin-right: 18px;
+}
+
+.social__link {
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.social__link:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    transition: transform 0.3s;
+    transform: scale(1.5);
+    color: blue;
+}
+
+.social__link--fb {
+    background-image: url("./../../img/fb-icon.svg");
+    width: 13px;
+    height: 25px;
+}
+
+.social__link--tw {
+    background-image: url("./../../img/tw-icon.svg");
+    width: 25px;
+    height: 22px;
+}
+
+.social__link--in {
+    background-image: url("./../../img/in-icon.svg");
+    width: 19px;
+    height: 20px;
+}
+
+.social__link--utube {
+    background-image: url("./../../img/utube-icon.svg");
+    width: 29px;
+    height: 20px;
+}
+
+.social__link--pt {
+    background-image: url("./../../img/pt-icon.svg");
+    width: 20px;
+    height: 20px;
+}

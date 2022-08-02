@@ -19,30 +19,36 @@
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+    padding-bottom: 50px;
 }
 
 .reviews__card {
     display: flex;
     width: 1113px;
-    flex-direction: row;
-    flex-wrap: wrap;
+    background: #333333;
 }
 
-.card__img {
-    display: block;
-    width: 445px;
-    height: 284px;
-    order: 1;
+.reviews__text {
+    padding: 20px;
 }
 
 .card__author {
-    display: block;
-    width: 50%;
-    order: 2;
+    font-family: 'josefin-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    margin-bottom: 25px;
 }
 
 .card__descr {
-    display: block;
-    width: 50%;
-    order: 3;
+    font-family: 'josefin-Regular';
+    width: 581px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    font-size: 18px;
 }
