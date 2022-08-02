@@ -1,0 +1,12 @@
+.place {
+    background-image: url("./../../img/mountain-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+
+.place__container {
+    padding-top: 226px;
+    margin-left: 40%;
+}

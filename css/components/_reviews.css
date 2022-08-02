@@ -1,0 +1,48 @@
+.reviews {
+    background-image: url("./../../img/reviewer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 731px;
+}
+
+.reviews__container {
+    padding-top: 128px;
+    text-align: center;
+}
+
+.reviews__title {
+    font-family: 'aleo-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.reviews__card {
+    display: flex;
+    width: 1113px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card__img {
+    display: block;
+    width: 445px;
+    height: 284px;
+    order: 1;
+}
+
+.card__author {
+    display: block;
+    width: 50%;
+    order: 2;
+}
+
+.card__descr {
+    display: block;
+    width: 50%;
+    order: 3;
+}
